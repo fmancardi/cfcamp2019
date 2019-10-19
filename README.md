@@ -21,3 +21,19 @@ I normally prefer this way
    >- tracer
 
 But I'm not an node.js expert, then maybe you find a better solution.
+
+## how to run the examples
+there is a bash script that can be used to run the examples.  
+adjust the location of your bash if needed.
+to run:
+./runit.chrome.sh **< TEST CASE PREFIX >**  
+
+./runit.chrome.sh **GL-04**  
+will run **./test/users/sign_in/GL-04.loginKO.js**
+
+
+Or you can run the command  
+testcafe --skip-js-errors chrome --cfg=gitlab.prod.json **./test/users/sign_in/GL-04.loginKO.js**  
+
+testcafe --skip-js-errors chrome --cfg=gitlab.prod.json **< TEST SCRIPT >**  
+
