@@ -9,7 +9,7 @@
             "allure-commandline": "^2.9.0",
             "faker": "^4.1.0",
             "lodash": "^4.17.15",
-            "minimist": "^1.2.0",
+            "minimist": "^1.2.3",
             "module-alias": "^2.2.1",
             "moment": "^2.24.0",
             "mssql": "^5.1.0",
